@@ -15,7 +15,7 @@ export function DEIArticlePage() {
         credentials=""
         date="Dec 25, 2025"
         categories={['Policy', 'Commentary', 'Culture']}
-        imageUrl={deiImage}
+        imageUrl="https://images.unsplash.com/photo-1598962689458-f705dc20e578?w=1200&q=80"
         content={`Diversity, Equity, and Inclusion (DEI) programs persist not because they deliver measurable results, but because the incentive structure surrounding them ensures that no one with decision-making power bears the cost of their failure. The individuals who fund, design, and promote these programs rarely face professional consequences when promised outcomes fail to materialize. By contrast, those who question their effectiveness risk immediate reputational, career, and social penalties. This asymmetry guarantees institutional entrenchment regardless of merit.
 
 DEI initiatives operate within a unique accountability vacuum. When a company's marketing campaign fails to generate revenue, the responsible team faces budget cuts or restructuring. When a safety protocol fails to reduce accidents, liability follows. But when a DEI program fails to improve diversity metrics, increase inclusion, or create measurable equity, the response is rarely to reduce investment or question the model. Instead, the standard conclusion is that the program was insufficiently resourced, poorly communicated, or resisted by a culture that requires even deeper intervention. Failure is thus reinterpreted as evidence of the need for more—not less—commitment.
