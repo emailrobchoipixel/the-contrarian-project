@@ -1,7 +1,7 @@
 import { Header } from '../components/Header';
 import { Article } from '../components/Article';
 import { Footer } from '../components/Footer';
-import inequalityImage from 'figma:asset/dc5ee415149be3ce82f6bc54c7806fd017e3d93a.png';
+
 
 export function InequalityArticlePage() {
   return (
@@ -15,7 +15,7 @@ export function InequalityArticlePage() {
         credentials=""
         date="Dec 25, 2025"
         categories={['Culture', 'Commentary', 'Economics']}
-        imageUrl={inequalityImage}
+        imageUrl="https://images.unsplash.com/photo-1761001315871-b1f7650a6303?w=1200&q=80"
         content={`"Inequality" has become the default explanation for nearly every difference in outcome in the United States. Housing costs rise, taxes vary, regions develop unevenly, wages diverge—and all of it is folded into a single word, as if every disparity must share a single cause. The prevailing assumption is simple: if outcomes don't line up neatly across groups, places, or industries, something must be wrong. Yet many of the disparities now described as inequality are not produced by markets at all. They are produced by regulation—and by policy choices that restrict opportunity rather than expand it.
 
 A major source of confusion lies in how inequality is measured. Common metrics treat society as if there were a natural baseline of perfect equality—a hypothetical world in which individuals have identical incomes, identical preferences, identical constraints, and identical life choices. The distance between reality and that imagined baseline is then framed as evidence of injustice or systemic failure. But no free society has ever resembled that starting point. People differ in ambition, risk tolerance, family structure, educational paths, geographic preferences, and how they trade time for money. Variation is not a defect of freedom; it is a consequence of it.
