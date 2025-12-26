@@ -4,9 +4,6 @@ import { ArticleCard } from './ArticleCard';
 import { NewsSection } from './NewsSection';
 import { Footer } from './Footer';
 import { Link } from 'react-router-dom';
-import deiImage from 'figma:asset/fb99c2be21a6d905c714dbb383ebfe8c59a566c6.png';
-import inequalityImage from 'figma:asset/dc5ee415149be3ce82f6bc54c7806fd017e3d93a.png';
-
 export function HomePage() {
   const articles = [
     {
