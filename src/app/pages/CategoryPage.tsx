@@ -2,9 +2,6 @@ import { useParams, Link } from 'react-router-dom';
 import { Header } from '../components/Header';
 import { ArticleCard } from '../components/ArticleCard';
 import { Footer } from '../components/Footer';
-import deiImage from 'figma:asset/fb99c2be21a6d905c714dbb383ebfe8c59a566c6.png';
-import inequalityImage from 'figma:asset/dc5ee415149be3ce82f6bc54c7806fd017e3d93a.png';
-
 export function CategoryPage() {
   const { category } = useParams<{ category: string }>();
 
@@ -34,7 +31,7 @@ export function CategoryPage() {
       author: "Contrarian Staff",
       date: "Dec 25, 2025",
       category: "Policy",
-      imageUrl: deiImage
+      imageUrl: "https://images.unsplash.com/photo-1598962689458-f705dc20e578?w=1200&q=80"
     },
     {
       id: "inequality-article",
@@ -43,7 +40,7 @@ export function CategoryPage() {
       author: "Contrarian Staff",
       date: "Dec 25, 2025",
       category: "Economics",
-      imageUrl: inequalityImage
+      imageUrl: "https://images.unsplash.com/photo-1761001315871-b1f7650a6303?w=1200&q=80"
     }
   ];
 
